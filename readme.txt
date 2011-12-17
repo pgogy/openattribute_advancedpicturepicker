@@ -2,8 +2,8 @@
 Contributors: OpenAttribute, pgogy
 Tags: flickr, picture, attribution, author, picture, find, use, creative commons, cc, licensing
 Requires at least: 3
-Tested up to: 3
-Stable tag: trunk
+Tested up to: 3.3
+Stable tag: 0.93
 
 This plugin is built for people keen to reuse flickr images in their blogs. Searching for just CC-BY material the plugin helps to make using flickr content much more simple.
 
@@ -39,6 +39,9 @@ No Questions have been asked yet. Please email us (at the google group) or conta
 8. You can now either insert the picture into the post, or set it as the featured image.
 
 == Changelog ==
+
+= 0.93 =
+Nonce issue resolved
 
 = 0.92 =
 Improved security
