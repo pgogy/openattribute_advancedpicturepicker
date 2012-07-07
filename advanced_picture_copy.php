@@ -40,7 +40,7 @@
 			</script> 
 		
 		
-		<script type='text/javascript' src='<?PHP echo $home_url; ?>/wp-admin/load-scripts.php?c=1&amp;load=ajax,set-post-thumbnail,jquery,utils,swfupload-all,swfupload-handlers,json2,jquery-ui-core,jquery-ui-sortable,admin-gallery&amp;ver=74c390eaa960a9c93c7a2655d30e9ffe'>
+		<script type='text/javascript' src='<?PHP echo $home_url; ?>/wp-admin/load-scripts.php?c=1&amp;load=ajax,set-post-thumbnail,jquery,&amp;ver=74c390eaa960a9c93c7a2655d30e9ffe'>
 		</script>
 		<script type="text/javascript" language="JavaScript">
 			
@@ -195,14 +195,6 @@
 	<div style="clear:left; margin:10px">
 		<p>				
 			<button class="button" onclick="insert_picture('<?PHP echo $image_url; ?>','<?PHP echo $wpdb->insert_id; ?>')"> Insert into Post</button> 
-			<?PHP
-								
-				$ajax_nonce = wp_create_nonce( "set_post_thumbnail-" . $_POST['post_edited'] );
-				$thumbnail = "<button class=\"button\" id='wp-post-thumbnail-" . $picture_post_id . "' href='#' onclick='WPSetAsThumbnail(\"$picture_post_id\", \"$ajax_nonce\");return false;'>" . esc_html__( "Use as featured image" ) . "</button>";
-				
-				echo $thumbnail;
-						
-			?>
 		</p> 	 
 	</div>
 </body>
