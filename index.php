@@ -2,9 +2,9 @@
 
 	/*
 	Plugin Name: Advanced Picture finder
-	Plugin URI: http://openattribute.com
+	Plugin URI: http://www.pgogy.com/code/groups/wordpress/advanced-picture-finder/
 	Description: Adds the ability to search for Flickr content, bring it bak into WordPress and attribute it.
-	Version: 0.94
+	Version: 0.96
 	Author: pgogy
 	Author URI: http://www.pgogy.com
 	*/

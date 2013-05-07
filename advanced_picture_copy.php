@@ -116,6 +116,12 @@
 		$author = $rsp_obj['photo']['owner']['realname'];
 	
 	}
+	
+	if($author==""){
+	
+		$author = $rsp_obj['photo']['notes']['note']['authorname'];
+	
+	}
 		
 	$attrib_url = $_POST['file_url'];
 			

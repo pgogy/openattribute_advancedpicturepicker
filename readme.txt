@@ -2,10 +2,10 @@
 Contributors: OpenAttribute, pgogy
 Tags: flickr, picture, attribution, author, picture, find, use, creative commons, cc, licensing
 Requires at least: 3
-Tested up to: 3.4
-Stable tag: 0.94
+Tested up to: 3.5
+Stable tag: 0.96
 
-This plugin is built for people keen to reuse flickr images in their blogs. Searching for just CC-BY material the plugin helps to make using flickr content much more simple.
+This plugin is built for people keen to reuse flickr images in their blogs. 
 
 == Description ==
 This plugin was developed for the Politics InSpires (http://politicsinspires.org) project at the University of Oxford.
@@ -17,6 +17,10 @@ In terms of long term support, the code is being maintained by the Open Attribut
 This plugin allows you to search Flickr for various content (all licensed in some form) and then for you to bring that content into WordPress and attribute it correctly.
 
 A simpler sister plug in is available which searches for just CC-BY.
+
+For support please see http://www.pgogy.com/code/groups/wordpress/advanced-picture-finder/
+
+[vimeo https://vimeo.com/60033351]
 
 == Installation ==
 
@@ -39,6 +43,9 @@ No Questions have been asked yet. Please email us (at the google group) or conta
 8. You can now either insert the picture into the post, or set it as the featured image.
 
 == Changelog ==
+
+= 0.96 =
+Added test for FlickR author
 
 = 0.94 =
 Tested for 3.4
