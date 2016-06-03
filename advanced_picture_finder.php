@@ -2,7 +2,7 @@
 
 	include "../../../wp-admin/admin.php";
 
-	$home_url = get_bloginfo("siteurl");  	
+	$home_url = site_url();  	
 
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
@@ -41,7 +41,6 @@
 				$short_dir = $_POST['short_dir'];
 				$search_term = $_POST['search_term'];
 				$content_type = $_POST['content_type'];
-				
 				
 				$current_user = wp_get_current_user();
 			
@@ -135,7 +134,7 @@
 					
 				}
 			
-				$url = "http://api.flickr.com/services/rest/?".implode('&', $encoded_params);
+				$url = "https://api.flickr.com/services/rest/?".implode('&', $encoded_params);
 			
 				$rsp = file_get_contents($url);
 				

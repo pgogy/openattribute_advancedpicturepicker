@@ -2,9 +2,7 @@
 
 	include "../../../wp-admin/admin.php";
 
-	$home_url = get_bloginfo("siteurl"); 
-
-	$home_url = get_bloginfo("siteurl"); 
+	$home_url = site_url();
 		
 	$nonce=$_REQUEST['_wpnonce'];
 						
@@ -58,7 +56,7 @@
 		
 	}
 
-	$url = "http://api.flickr.com/services/rest/?".implode('&', $encoded_params);
+	$url = "https://api.flickr.com/services/rest/?".implode('&', $encoded_params);
 
 	$rsp = file_get_contents($url);
 	
